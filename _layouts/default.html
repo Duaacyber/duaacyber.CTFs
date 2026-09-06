@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="/">{{ site.title }}</a></h1>
+            <p>{{ site.description }}</p>
+            <nav>
+                <a href="/">/Home</a>
+                <a href="https://github.com/YOUR_GITHUB_USERNAME">/GitHub</a>
+            </nav>
+        </header>
+        
+        <main>
+            {{ content }}
+        </main>
+
+        <footer>
+            <p>&copy; 2023 {{ site.title }}. Keep hacking.</p>
+        </footer>
+    </div>
+</body>
+</html>
