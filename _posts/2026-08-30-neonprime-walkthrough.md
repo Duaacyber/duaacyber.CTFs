@@ -1,8 +1,10 @@
+---
 layout: writeup
-title: "Name of the Challenge"
-tags: [web, ctf]
-date: 2026-08-30
-Challenge Name
+title: "NeonPrime: The Beginning"
+tags: [web, beginner, source-code, nmap]
+date: 2023-10-27
+summary: A beginner challenge about viewing HTML source code.
+---
 
 ## Enumeration
 I opened my web browser and navigated to http://10.10.10.50.
