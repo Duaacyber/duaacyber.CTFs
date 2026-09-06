@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article>
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">Date: {{ page.date | date: "%B %d, %Y" }}</p>
+        <p class="post-meta">Tags: {{ page.tags | join: ", " }}</p>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <br>
+    <a href="/">&lt;-- Back to Writeups</a>
+</article>
