@@ -1,0 +1,9 @@
+I opened my web browser and navigated to http://10.10.10.50.
+
+The page loaded a very simple white screen with just one line of text:
+
+"Welcome to NeonPrime. Nothing to see here..."
+
+It looks like a static page. My instinct when I see a simple web page in a CTF is to check the HTML Source Code. Developers often leave comments in the code that they forget to remove.
+
+I pressed Ctrl+U (or Right Click -> View Page Source).
