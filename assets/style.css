@@ -1,0 +1,70 @@
+:root {
+    --bg-color: #0d0d0d;
+    --text-color: #00ff00;
+    --accent-color: #00cc00;
+    --border-color: #333;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+}
+
+header {
+    border-bottom: 1px dashed var(--text-color);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Code block styling */
+pre {
+    background-color: #1a1a1a;
+    border: 1px solid var(--accent-color);
+    padding: 15px;
+    overflow-x: auto;
+    color: #fff;
+}
+
+code {
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
+/* Writeup List styling */
+.post-list {
+    list-style-type: square;
+}
+.post-list li {
+    margin-bottom: 10px;
+}
+.post-meta {
+    color: #888;
+    font-size: 0.8em;
+}
