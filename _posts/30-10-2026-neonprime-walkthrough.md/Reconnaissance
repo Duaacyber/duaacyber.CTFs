@@ -1,0 +1,19 @@
+First, I always start with a simple nmap scan to see what ports are open on the target machine.
+
+nmap -sV -sC 10.10.10.50
+Scan Results:
+  Starting Nmap 7.93 ( https://nmap.org )
+  Nmap scan report for 10.10.10.50
+  Host is up (0.023s latency).
+  Not shown: 998 closed tcp ports (conn-refused)
+  PORT   STATE SERVICE VERSION
+  80/tcp open  http    Apache httpd 2.4.41
+  |_http-server-header: Apache/2.4.41 (Ubuntu)
+  |_http-title: Site doesn't have a title (text/html).
+  22/tcp open  ssh     OpenSSH 8.2p0 Ubuntu
+  Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+We have two open ports:
+
+Port 22 (SSH): Secure shell login.
+Port 80 (HTTP): A web server running Apache.
+Since SSH usually requires credentials (which we don't have yet), let's focus on the web server.
