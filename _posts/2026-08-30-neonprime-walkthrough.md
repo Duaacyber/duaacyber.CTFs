@@ -4,7 +4,7 @@ tags: [web, ctf]
 date: 2026-08-30
 Challenge Name
 
-##Enumeration
+## Enumeration
 I opened my web browser and navigated to http://10.10.10.50.
 
 The page loaded a very simple white screen with just one line of text:
